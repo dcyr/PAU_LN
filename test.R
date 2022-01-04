@@ -29,7 +29,6 @@ df[,"seedlings"] <- seedlingFnc(sp = df$coverType,
                                 Ac = df$Ac, G = df$G, iqs = df$iqs,
                                 seedCoef = seedCoef, tCoef = tCoef)
 
-
 ################################################################################
 #### fitting quantile mapping model,
 ##### see Maraun, D. (2016). Bias Correcting Climate Change Simulations - a Critical Review. Current Climate Change Reports, 2(4), 211-220. https://doi.org/10.1007/s40641-016-0050-x
